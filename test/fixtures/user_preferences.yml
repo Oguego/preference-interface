@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  device_id: 
+  Health: MyString
+  Light: MyString
+  Heating: MyString
+  Safety: MyString
+  Security: MyString
+  Entertainment: MyString
+
+two:
+  device_id: 
+  Health: MyString
+  Light: MyString
+  Heating: MyString
+  Safety: MyString
+  Security: MyString
+  Entertainment: MyString
