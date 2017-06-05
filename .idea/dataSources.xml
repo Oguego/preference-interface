@@ -3,26 +3,26 @@
   <component name="DataSourceManagerImpl" format="xml" hash="2678195401">
     <data-source source="LOCAL" name="Rails preference: development" uuid="645072ed-5667-4c89-8e06-7303a274d5c8">
       <driver-ref>mysql</driver-ref>
-      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://127.0.0.1/preference</jdbc-url>
-      <user-name>mobile</user-name>
-      <user-password>dfc7dfc5dfc8dfc3dfc6dfcf</user-password>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/preference</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>df9bdf98df99df9edf9fdf9c</user-password>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails preference: test" uuid="3755c8fa-47ba-4dd4-98cb-90a627f231d2">
       <driver-ref>mysql</driver-ref>
-      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://127.0.0.1/preference</jdbc-url>
-      <user-name>mobile</user-name>
-      <user-password>dfc7dfc5dfc8dfc3dfc6dfcf</user-password>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/preference</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>df9bdf98df99df9edf9fdf9c</user-password>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails preference: production" uuid="4c0f98f3-05a4-45a6-8372-6ad30fbbe6db">
       <driver-ref>mysql</driver-ref>
-      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://127.0.0.1/preference</jdbc-url>
-      <user-name>mobile</user-name>
-      <user-password>dfc7dfc5dfc8dfc3dfc6dfcf</user-password>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/preference</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>df9bdf98df99df9edf9fdf9c</user-password>
       <libraries />
     </data-source>
   </component>

@@ -13,6 +13,9 @@
 
 ActiveRecord::Schema.define(version: 20170508223316) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "devices", force: true do |t|
     t.string   "device_id"
     t.datetime "created_at"
@@ -39,15 +42,6 @@ ActiveRecord::Schema.define(version: 20170508223316) do
   end
 
   add_index "test_data_options", ["test_data_id"], name: "index_test_data_options_on_test_data_id", using: :btree
-
-  create_table "testdata", id: false, force: true do |t|
-    t.string "Light",         limit: 25
-    t.string "Health",        limit: 25
-    t.string "Heating",       limit: 25
-    t.string "Safety",        limit: 25
-    t.string "HomeSecurity",  limit: 25
-    t.string "Entertainment", limit: 25
-  end
 
   create_table "user_preferences", force: true do |t|
     t.integer  "device_id"

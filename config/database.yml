@@ -10,11 +10,11 @@
 #   http://dev.mysql.com/doc/refman/5.0/en/old-client.html
 #
 default: &default
-  adapter: mysql2
+  adapter: postgresql
   encoding: utf8
   pool: 5
-  username: mobile
-  password: mobile
+  username: postgres
+  password: 123456
   host: localhost
 
 development:
@@ -50,5 +50,5 @@ test:
 production:
   <<: *default
   database: preference
-  username: mobile
-  password: mobile
+  username: postgres
+  password: 123456
